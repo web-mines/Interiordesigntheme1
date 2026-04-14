@@ -1,0 +1,928 @@
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MK Interior Designer Studio | Premium Interior Design</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js" defer="defer"></script>
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            /* Warm luxury base color */
+            background-color: #fafaf9;
+            color: #1c1917;
+        }
+
+        /* Custom scrollbar for subtle feel */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #fafaf9;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #d6d3d1;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #a8a29e;
+        }
+
+        .reveal-on-scroll {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .reveal-on-scroll.is-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Video container styling for Instagram */
+        .ig-container {
+            position: relative;
+            width: 100%;
+            padding-top: 177.77%;
+            /* 16:9 Aspect Ratio for Reels approx */
+            overflow: hidden;
+            border-radius: 1rem;
+            background: #f5f5f4;
+        }
+
+        .ig-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap">
+</head>
+
+<body class="antialiased text-stone-800 selection:bg-stone-200 selection:text-stone-900">
+
+    <!-- Top Announcement Bar (Exclusivity Factor) -->
+    <div class="bg-stone-900 text-stone-200 text-xs md:text-sm font-medium text-center py-3 px-4 tracking-wide">
+        Fully booked till June 2027. Now onboarding for H2 2027.
+    </div>
+
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 w-full bg-stone-50/95 border-b border-stone-200 py-4 backdrop-blur-md">
+        <div class="max-w-7xl mx-auto px-6 flex items-center justify-between">
+            <!-- Logo -->
+            <a href="#" class="text-xl font-bold tracking-tighter uppercase text-stone-900 flex flex-col leading-none">
+                MK INTERIOR
+                <span class="text-[0.65rem] tracking-widest text-stone-500 font-semibold mt-1">DESIGNER STUDIO</span>
+            </a>
+
+            <!-- Desktop Links -->
+            <div class="hidden md:flex items-center gap-8 text-sm font-medium text-stone-600">
+                <a href="#about" class="hover:text-stone-900 transition-colors">About</a>
+                <a href="#portfolio" class="hover:text-stone-900 transition-colors">Portfolio</a>
+                <a href="#vlogs" class="hover:text-stone-900 transition-colors">Vlogs & Media</a>
+                <a href="#process" class="hover:text-stone-900 transition-colors">Our Process</a>
+                <a href="#contact" class="hover:text-stone-900 transition-colors">Contact</a>
+            </div>
+
+            <!-- CTA Button -->
+            <a href="#contact"
+                class="hidden md:inline-flex items-center justify-center px-6 py-2.5 text-xs font-semibold tracking-wide text-white bg-stone-900 rounded-full hover:bg-stone-700 transition-colors shadow-lg">
+                Contact Us
+            </a>
+
+            <!-- Mobile Menu Icon -->
+            <button class="md:hidden text-stone-900">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="iconify text-[#656d4a]">
+                    <path d="M4 5h16M4 12h16M4 19h16"></path>
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="min-h-[90vh] flex overflow-hidden w-full pt-10 pb-32 relative items-center">
+        <!-- Background Image -->
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=2000&auto=format&fit=crop"
+                alt="Luxury Living Room" class="w-full h-full object-cover">
+            <!-- Subtle Overlay for text readability -->
+            <div class="bg-black/60 absolute inset-0"></div>
+        </div>
+
+        <div class="z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 w-full max-w-7xl mx-auto px-6 relative">
+            <div class="flex flex-col max-w-2xl justify-center reveal-on-scroll">
+                <!-- Label -->
+                <div
+                    class="inline-flex self-start px-4 py-1.5 mb-6 border border-white/30 rounded-full bg-white/10 backdrop-blur-md">
+                    <span class="text-[0.65rem] font-bold tracking-widest text-white uppercase flex items-center gap-2">
+                        <span class="w-2 h-2 rounded-full bg-[#656d4a] animate-pulse"></span>
+                        Exclusive Projects in Bangalore, Tumkur & Mysore
+                    </span>
+                </div>
+
+                <!-- Headline -->
+                <h1 class="text-5xl md:text-7xl font-semibold text-white tracking-tight leading-[1.1] mb-6">
+                    Crafting spaces that feel uniquely yours.
+                </h1>
+
+                <!-- Subheadline -->
+                <p class="md:text-xl leading-relaxed text-lg text-stone-200 max-w-lg mb-10 font-light">
+                    We limit our projects to maintain an uncompromising standard of luxury and detail. From the first
+                    sketch to the final reveal, we build homes that breathe your personality.
+                </p>
+
+                <!-- Buttons -->
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#portfolio"
+                        class="inline-flex items-center justify-center px-8 py-4 text-sm font-semibold text-stone-900 bg-white rounded-full hover:bg-stone-100 transition-all shadow-xl shadow-white/10">
+                        View Our Work
+                    </a>
+                    <a href="#contact"
+                        class="inline-flex items-center justify-center px-8 py-4 text-sm font-semibold text-white bg-transparent border border-white/50 rounded-full hover:bg-white/10 hover:border-white transition-all backdrop-blur-sm">
+                        Consultation Inquiry
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Floating Stats Strip (Bottom) -->
+        <div class="absolute bottom-8 left-6 right-6 md:left-12 md:right-auto md:w-auto z-20 reveal-on-scroll">
+            <div
+                class="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl shadow-black/20 p-6 md:p-8 flex flex-col md:flex-row gap-6 md:gap-12 items-start md:items-center">
+                <div class="flex items-center gap-4">
+                    <div class="p-3 bg-stone-100 rounded-xl">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="text-stone-700">
+                            <path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z" />
+                            <circle cx="12" cy="10" r="3" />
+                        </svg>
+                    </div>
+                    <div>
+                        <p class="text-[0.65rem] text-stone-500 uppercase font-bold tracking-widest">Service Area</p>
+                        <p class="text-base font-semibold text-stone-900 mt-0.5">Bangalore, Tumkur, Mysore</p>
+                    </div>
+                </div>
+                <div class="w-full h-px md:w-px md:h-12 bg-stone-200"></div>
+                <div class="flex items-center gap-4">
+                    <div class="p-3 bg-stone-100 rounded-xl">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="text-stone-700">
+                            <path d="M12 2v20" />
+                            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+                        </svg>
+                    </div>
+                    <div>
+                        <p class="text-[0.65rem] text-stone-500 uppercase font-bold tracking-widest">Project Scope</p>
+                        <p class="text-base font-semibold text-stone-900 mt-0.5">Limited Exclusive Projects</p>
+                    </div>
+                </div>
+                <div class="w-full h-px md:w-px md:h-12 bg-stone-200"></div>
+                <div class="flex items-center gap-4">
+                    <div class="p-3 bg-red-50 rounded-xl">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="text-red-600">
+                            <rect width="18" height="18" x="3" y="4" rx="2" ry="2" />
+                            <line x1="16" x2="16" y1="2" y2="6" />
+                            <line x1="8" x2="8" y1="2" y2="6" />
+                            <line x1="3" x2="21" y1="10" y2="10" />
+                            <path d="M15 14h.01" />
+                            <path d="M11 14h.01" />
+                        </svg>
+                    </div>
+                    <div>
+                        <p class="text-[0.65rem] text-red-600 uppercase font-bold tracking-widest">Availability</p>
+                        <p class="text-base font-semibold text-stone-900 mt-0.5">Waitlist Open (July 2027)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Target Audience / About Section -->
+    <section id="about" class="py-24 bg-stone-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div
+                class="bg-stone-100 rounded-[2.5rem] p-8 md:p-16 flex flex-col lg:flex-row gap-16 items-center reveal-on-scroll">
+                <!-- Text Content -->
+                <div class="lg:w-1/2">
+                    <span class="text-xs font-semibold tracking-wider text-stone-500 uppercase mb-3 block">About MK
+                        Studio</span>
+                    <h2 class="md:text-4xl text-3xl font-semibold text-stone-900 tracking-tight mb-6">
+                        Designed for those who appreciate true craftsmanship.
+                    </h2>
+                    <p class="leading-relaxed text-stone-600 mb-8">
+                        Your home deserves more than a standard catalog layout. If you desire a space thought out to the
+                        absolute finest detail without the stress of managing contractors and sourcing furniture, MK
+                        Interior Designer Studio is your partner. Our services are perfect for you if:
+                    </p>
+
+                    <ul class="mb-10 space-y-4">
+                        <li class="flex items-start gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="text-[#656d4a] mt-1 flex-shrink-0">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                                <polyline points="22 4 12 14.01 9 11.01" />
+                            </svg>
+                            <span class="text-stone-700">You are buying or building a new premium property in Bangalore,
+                                Tumkur, or Mysore.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="text-[#656d4a] mt-1 flex-shrink-0">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                                <polyline points="22 4 12 14.01 9 11.01" />
+                            </svg>
+                            <span class="text-stone-700">You want an interior that feels timeless, calm, and
+                                luxurious.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="text-[#656d4a] mt-1 flex-shrink-0">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                                <polyline points="22 4 12 14.01 9 11.01" />
+                            </svg>
+                            <span class="text-stone-700">You prefer a hassle-free, end-to-end execution where every
+                                detail is managed for you.</span>
+                        </li>
+                    </ul>
+
+                    <div class="bg-white px-6 py-5 rounded-xl border-l-4 border-stone-800 shadow-sm">
+                        <p class="text-sm text-stone-600 leading-relaxed font-medium">
+                            We are not a mass-market firm. We accept only a select number of clients each year to ensure
+                            our design and execution quality remains flawless. This is why our calendar is fully booked
+                            through mid-2027.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Image -->
+                <div class="lg:w-1/2 w-full h-[500px]">
+                    <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200&auto=format&fit=crop"
+                        alt="Warm cozy living room"
+                        class="shadow-stone-200 w-full h-full object-cover rounded-3xl shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section (Instagram Reels) -->
+    <section id="portfolio" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-16 reveal-on-scroll">
+                <div>
+                    <span
+                        class="text-xs font-semibold tracking-wider text-stone-500 uppercase mb-3 block">Portfolio</span>
+                    <h2 class="text-3xl md:text-5xl font-semibold text-stone-900 tracking-tight">
+                        Our Latest Masterpieces
+                    </h2>
+                </div>
+                <a href="https://instagram.com/mk_interiors9?igshid=YmMyMTA2M2Y=" target="_blank"
+                    class="mt-4 md:mt-0 inline-flex items-center px-6 py-3 rounded-full border border-stone-200 text-sm font-semibold text-stone-700 hover:bg-stone-50 transition-colors">
+                    View More on Instagram
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="ml-2">
+                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                        <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                    </svg>
+                </a>
+            </div>
+
+            <!-- Instagram Reels Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- IG Video 1 -->
+                <div
+                    class="reveal-on-scroll group bg-stone-50 rounded-2xl p-4 border border-stone-100 hover:shadow-xl transition-all">
+                    <div class="ig-container">
+                        <iframe src="https://www.instagram.com/reel/DXDjDkMk5oc/embed" frameborder="0" scrolling="no"
+                            allowtransparency="true"></iframe>
+                    </div>
+                    <div class="mt-4 px-2">
+                        <h3 class="text-lg font-semibold text-stone-900">Modern Luxury Concept</h3>
+                        <p class="text-sm text-stone-500 mt-1">Impeccable details & finishes.</p>
+                    </div>
+                </div>
+
+                <!-- IG Video 2 -->
+                <div class="reveal-on-scroll group bg-stone-50 rounded-2xl p-4 border border-stone-100 hover:shadow-xl transition-all"
+                    style="transition-delay: 100ms;">
+                    <div class="ig-container">
+                        <iframe src="https://www.instagram.com/reel/DWvH5AHkwXF/embed" frameborder="0" scrolling="no"
+                            allowtransparency="true"></iframe>
+                    </div>
+                    <div class="mt-4 px-2">
+                        <h3 class="text-lg font-semibold text-stone-900">Premium Execution</h3>
+                        <p class="text-sm text-stone-500 mt-1">Bringing 3D designs to real life.</p>
+                    </div>
+                </div>
+
+                <!-- IG Video 3 -->
+                <div class="reveal-on-scroll group bg-stone-50 rounded-2xl p-4 border border-stone-100 hover:shadow-xl transition-all"
+                    style="transition-delay: 200ms;">
+                    <div class="ig-container">
+                        <iframe src="https://www.instagram.com/reel/DWXpTYiE5sO/embed" frameborder="0" scrolling="no"
+                            allowtransparency="true"></iframe>
+                    </div>
+                    <div class="mt-4 px-2">
+                        <h3 class="text-lg font-semibold text-stone-900">Bespoke Furnishings</h3>
+                        <p class="text-sm text-stone-500 mt-1">Custom-made for every client.</p>
+                    </div>
+                </div>
+
+                <!-- IG Video 4 -->
+                <div
+                    class="reveal-on-scroll group bg-stone-50 rounded-2xl p-4 border border-stone-100 hover:shadow-xl transition-all">
+                    <div class="ig-container">
+                        <iframe src="https://www.instagram.com/reel/DVzrN5VE8KP/embed" frameborder="0" scrolling="no"
+                            allowtransparency="true"></iframe>
+                    </div>
+                    <div class="mt-4 px-2">
+                        <h3 class="text-lg font-semibold text-stone-900">Living Room Elegance</h3>
+                        <p class="text-sm text-stone-500 mt-1">Creating a warm, inviting aura.</p>
+                    </div>
+                </div>
+
+                <!-- IG Video 5 -->
+                <div class="reveal-on-scroll group bg-stone-50 rounded-2xl p-4 border border-stone-100 hover:shadow-xl transition-all"
+                    style="transition-delay: 100ms;">
+                    <div class="ig-container">
+                        <iframe src="https://www.instagram.com/reel/DVFRnl9k0g0/embed" frameborder="0" scrolling="no"
+                            allowtransparency="true"></iframe>
+                    </div>
+                    <div class="mt-4 px-2">
+                        <h3 class="text-lg font-semibold text-stone-900">Master Bedroom Suite</h3>
+                        <p class="text-sm text-stone-500 mt-1">Your ultimate sanctuary.</p>
+                    </div>
+                </div>
+
+                <!-- Drive link promo box -->
+                <div class="reveal-on-scroll group rounded-2xl p-8 border border-stone-200 bg-stone-900 text-white flex flex-col justify-center items-center text-center hover:bg-stone-800 transition-all"
+                    style="transition-delay: 200ms;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                        class="mb-6 opacity-80">
+                        <path d="M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v4" />
+                        <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+                        <path d="M3 15h6" />
+                        <path d="M3 18h6" />
+                        <path d="M3 12h6" />
+                    </svg>
+                    <h3 class="text-2xl font-semibold mb-3">Extensive Catalogue</h3>
+                    <p class="text-stone-400 text-sm mb-8 leading-relaxed">Explore our full material finishes, past
+                        projects, and moodboards in our official design drive.</p>
+                    <a href="https://drive.google.com/drive/folders/1_D5IEniZ2KbHvzZLA61oFp8NGlbTtppi" target="_blank"
+                        class="px-6 py-3 bg-white text-stone-900 rounded-full font-semibold text-sm hover:bg-stone-200 transition-colors w-full">Access
+                        Google Drive</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Vlogs / Youtube Section -->
+    <section id="vlogs" class="py-24 bg-stone-100 border-t border-stone-200">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-3xl mx-auto mb-16 reveal-on-scroll">
+                <span class="text-xs font-semibold tracking-wider text-stone-500 uppercase mb-3 block">Media &
+                    Walkthroughs</span>
+                <h2 class="text-3xl md:text-5xl font-semibold text-stone-900 tracking-tight mb-6">
+                    Site Updates & Vlogs
+                </h2>
+                <p class="text-lg text-stone-600">
+                    Take a behind-the-scenes look at our projects, site updates, and final reveals. See how we transform
+                    empty layouts into breathtaking homes.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- YouTube Video 1 -->
+                <div class="reveal-on-scroll bg-white rounded-2xl overflow-hidden shadow-sm border border-stone-200">
+                    <iframe width="100%" height="240" src="https://www.youtube.com/embed/xJXFcfL0hkI"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <!-- YouTube Video 2 -->
+                <div class="reveal-on-scroll bg-white rounded-2xl overflow-hidden shadow-sm border border-stone-200"
+                    style="transition-delay: 100ms;">
+                    <iframe width="100%" height="240" src="https://www.youtube.com/embed/ktdV3rUlXG0"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <!-- YouTube Video 3 -->
+                <div class="reveal-on-scroll bg-white rounded-2xl overflow-hidden shadow-sm border border-stone-200"
+                    style="transition-delay: 200ms;">
+                    <iframe width="100%" height="240" src="https://www.youtube.com/embed/nnGkDCrHD_k"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <!-- YouTube Video 4 -->
+                <div class="reveal-on-scroll bg-white rounded-2xl overflow-hidden shadow-sm border border-stone-200">
+                    <iframe width="100%" height="240" src="https://www.youtube.com/embed/AtC0llZfrH8"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <!-- YouTube Video 5 -->
+                <div class="reveal-on-scroll bg-white rounded-2xl overflow-hidden shadow-sm border border-stone-200"
+                    style="transition-delay: 100ms;">
+                    <iframe width="100%" height="240" src="https://www.youtube.com/embed/QofpnZc3_4Y"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <!-- YouTube Video 6 -->
+                <div class="reveal-on-scroll bg-white rounded-2xl overflow-hidden shadow-sm border border-stone-200"
+                    style="transition-delay: 200ms;">
+                    <iframe width="100%" height="240" src="https://www.youtube.com/embed/kMd67LVKnx8"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="py-24 bg-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="mb-24 md:text-center max-w-3xl mx-auto reveal-on-scroll">
+                <span class="text-xs font-semibold tracking-wider text-stone-500 uppercase mb-3 block">
+                    The Journey
+                </span>
+                <h2 class="md:text-5xl text-3xl font-semibold text-stone-900 tracking-tight mb-6">
+                    How we collaborate
+                </h2>
+                <p class="text-lg text-stone-600">
+                    A seamless, transparent process designed to give you peace of mind from day one.
+                </p>
+            </div>
+
+            <div class="relative space-y-8">
+
+                <!-- Step 1 -->
+                <div class="group grid grid-cols-1 md:grid-cols-[220px_60px_1fr] reveal-on-scroll relative">
+                    <div class="hidden md:block text-right pt-10">
+                        <h3 class="text-lg font-semibold text-stone-900">Consultation</h3>
+                        <p class="text-sm text-stone-500 mt-1">Step 01</p>
+                    </div>
+                    <div class="hidden md:flex justify-center relative">
+                        <div class="w-px bg-stone-300 h-full absolute top-0 bottom-0 left-1/2 -translate-x-1/2"></div>
+                        <div class="w-3 h-3 bg-stone-900 mt-[46px] relative z-10 rounded-full"></div>
+                    </div>
+                    <div
+                        class="md:p-12 md:ml-0 bg-stone-50 border-stone-200 border rounded-[2.5rem] pt-8 pr-8 pb-8 pl-8 shadow-sm">
+                        <div class="md:hidden flex items-center gap-3 mb-6">
+                            <span class="px-2 py-1 bg-stone-200 rounded text-xs font-bold text-stone-900">01</span>
+                            <h3 class="text-lg font-semibold text-stone-900">Consultation</h3>
+                        </div>
+                        <span
+                            class="hidden md:block text-xs font-mono font-medium text-stone-400 uppercase tracking-widest mb-6">PHASE_01</span>
+                        <h3 class="text-2xl font-semibold text-stone-900 tracking-tight mb-6">Initial Brief & Vision
+                        </h3>
+                        <ul class="space-y-3 text-stone-600">
+                            <li class="flex items-start gap-3">
+                                <span class="w-1.5 h-1.5 rounded-full bg-stone-400 mt-2.5 flex-shrink-0"></span>
+                                <span>We meet to understand your lifestyle, floor plan, budget, and design
+                                    aspirations.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="w-1.5 h-1.5 rounded-full bg-stone-400 mt-2.5 flex-shrink-0"></span>
+                                <span>Defining the exact scope for your property in Bangalore, Tumkur, or Mysore.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="group grid grid-cols-1 md:grid-cols-[220px_60px_1fr] reveal-on-scroll relative">
+                    <div class="hidden md:block text-right pt-10">
+                        <h3 class="text-lg font-semibold text-stone-900">Concept</h3>
+                        <p class="text-sm text-stone-500 mt-1">Step 02</p>
+                    </div>
+                    <div class="hidden md:flex justify-center relative">
+                        <div class="w-px bg-stone-300 h-full absolute top-0 bottom-0 left-1/2 -translate-x-1/2"></div>
+                        <div class="w-3 h-3 bg-stone-900 mt-[46px] relative z-10 rounded-full"></div>
+                    </div>
+                    <div class="bg-stone-50 rounded-[2.5rem] p-8 md:p-12 border border-stone-200 shadow-sm md:ml-0">
+                        <div class="md:hidden flex items-center gap-3 mb-6">
+                            <span class="px-2 py-1 bg-stone-200 rounded text-xs font-bold text-stone-900">02</span>
+                            <h3 class="text-lg font-semibold text-stone-900">Concept</h3>
+                        </div>
+                        <span
+                            class="hidden md:block text-xs font-mono font-medium text-stone-400 uppercase tracking-widest mb-6">PHASE_02</span>
+                        <h3 class="text-2xl font-semibold text-stone-900 tracking-tight mb-6">Moodboards & Styling</h3>
+                        <ul class="space-y-3 text-stone-600">
+                            <li class="flex items-start gap-3">
+                                <span class="w-1.5 h-1.5 rounded-full bg-stone-400 mt-2.5 flex-shrink-0"></span>
+                                <span>Curating a bespoke moodboard involving colors, textures, and material
+                                    palettes.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="group grid grid-cols-1 md:grid-cols-[220px_60px_1fr] reveal-on-scroll relative">
+                    <div class="hidden md:block text-right pt-10">
+                        <h3 class="text-lg font-semibold text-stone-900">3D Visuals</h3>
+                        <p class="text-sm text-stone-500 mt-1">Step 03</p>
+                    </div>
+                    <div class="hidden md:flex justify-center relative">
+                        <div class="w-px bg-stone-300 h-full absolute top-0 bottom-0 left-1/2 -translate-x-1/2"></div>
+                        <div class="w-3 h-3 bg-stone-900 mt-[46px] relative z-10 rounded-full"></div>
+                    </div>
+                    <div class="bg-stone-50 rounded-[2.5rem] p-8 md:p-12 border border-stone-200 shadow-sm md:ml-0">
+                        <div class="md:hidden flex items-center gap-3 mb-6">
+                            <span class="px-2 py-1 bg-stone-200 rounded text-xs font-bold text-stone-900">03</span>
+                            <h3 class="text-lg font-semibold text-stone-900">3D Visuals</h3>
+                        </div>
+                        <span
+                            class="hidden md:block text-xs font-mono font-medium text-stone-400 uppercase tracking-widest mb-6">PHASE_03</span>
+                        <h3 class="text-2xl font-semibold text-stone-900 tracking-tight mb-6">Photorealistic 3D Renders
+                        </h3>
+                        <ul class="space-y-3 text-stone-600">
+                            <li class="flex items-start gap-3">
+                                <span class="w-1.5 h-1.5 rounded-full bg-stone-400 mt-2.5 flex-shrink-0"></span>
+                                <span>We translate the concept into stunning, lifelike 3D models of your exact
+                                    space.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="w-1.5 h-1.5 rounded-full bg-stone-400 mt-2.5 flex-shrink-0"></span>
+                                <span>Fine-tuning lighting, furniture placement, and architectural details.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="group grid grid-cols-1 md:grid-cols-[220px_60px_1fr] reveal-on-scroll relative">
+                    <div class="hidden md:block text-right pt-10">
+                        <h3 class="text-lg font-semibold text-stone-900">Execution</h3>
+                        <p class="text-sm text-stone-500 mt-1">Step 04</p>
+                    </div>
+                    <div class="hidden md:flex justify-center relative">
+                        <div class="w-px bg-stone-300 h-full absolute top-0 bottom-0 left-1/2 -translate-x-1/2"></div>
+                        <div class="w-3 h-3 bg-stone-900 mt-[46px] relative z-10 rounded-full"></div>
+                    </div>
+                    <div class="bg-stone-50 rounded-[2.5rem] p-8 md:p-12 border border-stone-200 shadow-sm md:ml-0">
+                        <div class="md:hidden flex items-center gap-3 mb-6">
+                            <span class="px-2 py-1 bg-stone-200 rounded text-xs font-bold text-stone-900">04</span>
+                            <h3 class="text-lg font-semibold text-stone-900">Execution</h3>
+                        </div>
+                        <span
+                            class="hidden md:block text-xs font-mono font-medium text-stone-400 uppercase tracking-widest mb-6">PHASE_04</span>
+                        <h3 class="text-2xl font-semibold text-stone-900 tracking-tight mb-6">Realization & Handover
+                        </h3>
+                        <ul class="space-y-3 text-stone-600">
+                            <li class="flex items-start gap-3">
+                                <span class="w-1.5 h-1.5 rounded-full bg-stone-400 mt-2.5 flex-shrink-0"></span>
+                                <span>Sourcing all real materials, fixtures, and bespoke furniture.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="w-1.5 h-1.5 rounded-full bg-stone-400 mt-2.5 flex-shrink-0"></span>
+                                <span>Our team executes the design precisely as presented, delivering a turn-key
+                                    home.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section class="bg-stone-900 py-24 text-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="mb-16 md:text-center max-w-3xl mx-auto reveal-on-scroll">
+                <h2 class="text-3xl md:text-4xl font-semibold tracking-tight mb-6">
+                    Why MK Interior Designer Studio
+                </h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Item 1 -->
+                <div
+                    class="flex flex-col items-start p-8 rounded-[2rem] bg-stone-800 border border-stone-700 h-full reveal-on-scroll">
+                    <div
+                        class="w-14 h-14 bg-stone-700 rounded-2xl flex items-center justify-center mb-6 text-stone-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Uncompromising Quality</h3>
+                    <p class="text-stone-400 leading-relaxed text-sm">
+                        We don't take on every project. By limiting our volume, we guarantee absolute focus and premium
+                        finishes for your home.
+                    </p>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="flex flex-col items-start p-8 rounded-[2rem] bg-stone-800 border border-stone-700 h-full reveal-on-scroll"
+                    style="transition-delay: 100ms;">
+                    <div
+                        class="w-14 h-14 bg-stone-700 rounded-2xl flex items-center justify-center mb-6 text-stone-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <path
+                                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96" />
+                            <line x1="12" y1="22.08" x2="12" y2="12" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Real-World Execution</h3>
+                    <p class="text-stone-400 leading-relaxed text-sm">
+                        What you see in our 3D visualisations is exactly what gets built. We source real products, not
+                        fictional concepts.
+                    </p>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="flex flex-col items-start p-8 rounded-[2rem] bg-stone-800 border border-stone-700 h-full reveal-on-scroll"
+                    style="transition-delay: 200ms;">
+                    <div
+                        class="w-14 h-14 bg-stone-700 rounded-2xl flex items-center justify-center mb-6 text-stone-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10" />
+                            <line x1="2" y1="12" x2="22" y2="12" />
+                            <path
+                                d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Local Expertise</h3>
+                    <p class="text-stone-400 leading-relaxed text-sm">
+                        Operating exclusively in Bangalore, Tumkur, and Mysore gives us unparalleled control over local
+                        suppliers and craftsmen.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="relative bg-stone-50 pt-24 pb-24" id="faq">
+        <div class="relative z-10 max-w-3xl mx-auto px-6 reveal-on-scroll">
+            <h2 class="text-3xl font-semibold text-stone-900 tracking-tight text-center mb-16">
+                Frequently Asked Questions
+            </h2>
+
+            <div class="space-y-4">
+                <!-- Question 1 -->
+                <details class="group bg-white rounded-xl border border-stone-200 overflow-hidden">
+                    <summary
+                        class="flex items-center justify-between p-6 cursor-pointer list-none text-stone-900 font-medium hover:bg-stone-50 transition-colors">
+                        <span>Where do you undertake projects?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="transition-transform group-open:rotate-180 text-stone-400">
+                            <path d="m6 9 6 6 6-6" />
+                        </svg>
+                    </summary>
+                    <div class="px-6 pb-6 text-stone-600 text-sm leading-relaxed">
+                        We exclusively undertake projects in Bangalore, Tumkur, and Mysore. This geographic focus allows
+                        us to maintain the highest level of quality control and on-site supervision.
+                    </div>
+                </details>
+
+                <!-- Question 2 -->
+                <details class="group bg-white rounded-xl border border-stone-200 overflow-hidden" open>
+                    <summary
+                        class="flex items-center justify-between p-6 cursor-pointer list-none text-stone-900 font-medium hover:bg-stone-50 transition-colors">
+                        <span class="">Are you currently taking new clients?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="transition-transform group-open:rotate-180 text-stone-400">
+                            <path d="m6 9 6 6 6-6" />
+                        </svg>
+                    </summary>
+                    <div class="px-6 pb-6 text-stone-600 text-sm leading-relaxed font-semibold">
+                        Due to our commitment to excellence and limited project capacity, our bookings are entirely
+                        closed for the remainder of 2026 and until June 2027. We are currently accepting waitlist
+                        applications for projects starting from July 2027 onwards.
+                    </div>
+                </details>
+
+                <!-- Question 3 -->
+                <details class="group bg-white rounded-xl border border-stone-200 overflow-hidden">
+                    <summary
+                        class="flex items-center justify-between p-6 cursor-pointer list-none text-stone-900 font-medium hover:bg-stone-50 transition-colors">
+                        <span>Do you execute the interior work as well?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="transition-transform group-open:rotate-180 text-stone-400">
+                            <path d="m6 9 6 6 6-6" />
+                        </svg>
+                    </summary>
+                    <div class="px-6 pb-6 text-stone-600 text-sm leading-relaxed">
+                        Yes, we provide end-to-end solutions. From the initial 3D design to civil changes, modular
+                        woodwork, painting, and final handover, our team handles the complete execution to ensure the
+                        reality matches the visualisations.
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="overflow-hidden bg-white pt-32 pb-32 relative border-t border-stone-200">
+        <!-- Decorative blur element -->
+        <div class="absolute -top-40 -right-40 w-96 h-96 bg-stone-100 rounded-full blur-3xl"></div>
+        <div class="absolute -bottom-40 -left-40 w-96 h-96 bg-stone-100 rounded-full blur-3xl"></div>
+
+        <div class="relative max-w-4xl mx-auto px-6 text-center reveal-on-scroll">
+            <div
+                class="inline-block px-4 py-1.5 mb-6 rounded-full bg-red-50 text-red-700 text-xs font-bold uppercase tracking-widest border border-red-100">
+                Waitlist Open for H2 2027
+            </div>
+            <h2 class="text-4xl md:text-6xl font-semibold text-stone-900 tracking-tight mb-8">
+                Secure your spot on our exclusive waitlist.
+            </h2>
+            <p class="text-xl text-stone-600 mb-10 max-w-2xl mx-auto">
+                As we take on a strictly limited number of homes per year in Bangalore, Tumkur, and Mysore, we encourage
+                early discussions for your upcoming property.
+            </p>
+
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="https://maps.app.goo.gl/wbMaBbdgMNreAFvi6" target="_blank"
+                    class="inline-flex items-center justify-center px-10 py-5 text-base font-semibold text-stone-50 bg-stone-900 rounded-full hover:bg-stone-800 transition-all shadow-xl shadow-stone-900/10 w-full sm:w-auto">
+                    Visit Our Studio (Maps)
+                </a>
+                <a href="https://indiamart.com/amaragirienterprises" target="_blank"
+                    class="inline-flex items-center justify-center px-10 py-5 text-base font-semibold text-stone-900 bg-stone-100 hover:bg-stone-200 rounded-full transition-all w-full sm:w-auto border border-stone-200">
+                    IndiaMart Profile
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Location Section -->
+    <section id="contact" class="py-24 bg-stone-50 border-t border-stone-200">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+
+                <!-- Contact Form -->
+                <div class="reveal-on-scroll">
+                    <div
+                        class="inline-flex px-4 py-1.5 mb-6 rounded-full bg-stone-200 text-stone-600 text-[0.65rem] font-bold uppercase tracking-widest">
+                        Contact Us
+                    </div>
+                    <h2 class="text-4xl font-semibold text-stone-900 tracking-tight mb-6">Let's start your journey</h2>
+                    <p class="text-stone-600 mb-10 leading-relaxed">Fill out the form below to secure your spot on our
+                        waitlist. We focus on limited projects to ensure perfection.</p>
+
+                    <form class="space-y-4">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <input type="text" placeholder="Full Name"
+                                class="w-full px-6 py-4 rounded-2xl border border-stone-200 focus:border-stone-900 focus:ring-0 outline-none transition-all">
+                            <input type="email" placeholder="Email Address"
+                                class="w-full px-6 py-4 rounded-2xl border border-stone-200 focus:border-stone-900 focus:ring-0 outline-none transition-all">
+                        </div>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <input type="tel" placeholder="Phone Number"
+                                class="w-full px-6 py-4 rounded-2xl border border-stone-200 focus:border-stone-900 focus:ring-0 outline-none transition-all">
+                            <select
+                                class="w-full px-6 py-4 rounded-2xl border border-stone-200 focus:border-stone-900 focus:ring-0 outline-none transition-all bg-white appearance-none">
+                                <option value="">Select Location</option>
+                                <option value="bangalore">Bangalore</option>
+                                <option value="tumkur">Tumkur</option>
+                                <option value="mysore">Mysore</option>
+                            </select>
+                        </div>
+                        <textarea placeholder="Tell us about your project (Property type, area, etc.)" rows="4"
+                            class="w-full px-6 py-4 rounded-2xl border border-stone-200 focus:border-stone-900 focus:ring-0 outline-none transition-all"></textarea>
+                        <button type="submit"
+                            class="w-full py-5 bg-stone-900 text-white rounded-2xl font-bold text-sm tracking-widest uppercase hover:bg-stone-800 transition-all shadow-xl shadow-stone-200">
+                            Submit Inquiry
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Google Map Section -->
+                <div class="reveal-on-scroll lg:mt-0">
+                    <div
+                        class="map-wrapper relative w-full h-[500px] lg:h-[580px] rounded-[2.5rem] overflow-hidden shadow-2xl border border-stone-200 bg-white">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.886539092!2d77.490852!3d12.9538477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1713000000000!5m2!1sen!2sin"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+
+                        <!-- Floating Map Label -->
+                        <div class="absolute bottom-8 left-8 right-8">
+                            <div
+                                class="bg-white/90 backdrop-blur-md p-6 rounded-2xl shadow-lg border border-stone-100 flex items-center gap-4">
+                                <div
+                                    class="w-12 h-12 bg-stone-900 rounded-xl flex items-center justify-center text-white shrink-0">
+                                    <span class="iconify" data-icon="lucide:map-pin" data-width="24"></span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-stone-900 text-sm tracking-tight">MK Designer Hub</h4>
+                                    <p class="text-xs text-stone-500 mt-1">Visit our studio to explore material
+                                        libraries.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-stone-950 py-16 text-stone-400">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
+
+            <div class="text-center md:text-left">
+                <h4 class="text-white text-lg font-bold tracking-wider uppercase mb-2">MK INTERIOR DESIGNER STUDIO</h4>
+                <p class="text-sm">Premium Interior Design Services</p>
+                <p class="text-sm mt-1">Bangalore • Tumkur • Mysore</p>
+            </div>
+
+            <div class="flex flex-col items-center md:items-end gap-6">
+                <div class="flex gap-6">
+                    <a href="https://instagram.com/mk_interiors9?igshid=YmMyMTA2M2Y=" target="_blank"
+                        class="hover:text-white transition-colors" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                        </svg>
+                    </a>
+                    <a href="https://facebook.com/mkdesigns9" target="_blank" class="hover:text-white transition-colors"
+                        aria-label="Facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                        </svg>
+                    </a>
+                    <a href="https://drive.google.com/drive/folders/1_D5IEniZ2KbHvzZLA61oFp8NGlbTtppi" target="_blank"
+                        class="hover:text-white transition-colors" aria-label="Google Drive Catalogue">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+                            <path d="M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v4" />
+                            <path d="M3 15h6" />
+                            <path d="M3 18h6" />
+                            <path d="M3 12h6" />
+                        </svg>
+                    </a>
+                    <a href="https://maps.app.goo.gl/wbMaBbdgMNreAFvi6" target="_blank"
+                        class="hover:text-white transition-colors" aria-label="Google Maps">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                            <circle cx="12" cy="10" r="3" />
+                        </svg>
+                    </a>
+                </div>
+                <p class="text-stone-500 text-xs">
+                    © 2026 MK Interior Designer Studio. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Intersection Observer for scroll animations
+            var o = new IntersectionObserver(function (e) {
+                e.forEach(function (t) {
+                    if (t.isIntersecting) {
+                        t.target.classList.add('is-visible');
+                    }
+                });
+            }, { threshold: 0.15 });
+
+            document.querySelectorAll('.reveal-on-scroll').forEach(function (e) {
+                o.observe(e);
+            });
+        });
+    </script>
+</body>
+
+</html>
